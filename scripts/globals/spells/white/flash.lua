@@ -18,7 +18,7 @@ spell_object.onSpellCast = function(caster, target, spell)
 
     local params = {}
     params.diff = nil
-    params.attribute = xi.mod.INT
+    params.attribute = xi.mod.MND
     params.skillType = xi.skill.DIVINE_MAGIC
     params.bonus =  150
     params.effect = nil
